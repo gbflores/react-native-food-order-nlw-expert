@@ -56,3 +56,7 @@ npx instal zustand
 ```
 npm i react-native-keyboard-aware-scroll-view --save
 ```
+### Instalação do Async Storage
+```
+npx expo install @react-native-async-storage/async-storage
+```
