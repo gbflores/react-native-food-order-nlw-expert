@@ -48,3 +48,7 @@ E também o path:
 ```
 npx i clsx
 ```
+### Instalação do zustand
+```
+npx instal zustand
+```
