@@ -5,11 +5,15 @@ import { Header } from "@/components/header";
 import { CategoryButton } from "@/components/category-button";
 import { Product } from "@/components/product";
 import { Link } from "expo-router";
+import { useCartStore } from "@/stores/cart-store";
 
 export default function Home() {
+    const cartStore = useCartStore();
     const [category, setCategory] = useState(CATEGORIES[0]);
 
     const sectionListRef = useRef<SectionList>(null)
+
+    const cartQuantityItems = cartStore.products.reduce((total, product) => total + product.quantity, 0)
 
     function handleCategorySelect(selectedCategory: string) {
         //set the category and apply 
@@ -30,7 +34,7 @@ export default function Home() {
 
     return (
         <View className="flex-1 pt-8">
-            <Header title="Faça seu pedido" cartQuantityItems={5} />
+            <Header title="Faça seu pedido" cartQuantityItems={cartQuantityItems} />
             <FlatList
                 data={CATEGORIES}
                 keyExtractor={(item) => item}
