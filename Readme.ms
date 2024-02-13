@@ -52,3 +52,7 @@ npx i clsx
 ```
 npx instal zustand
 ```
+### Instalação do KeyboardAware
+```
+npm i react-native-keyboard-aware-scroll-view --save
+```

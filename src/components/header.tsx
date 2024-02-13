@@ -17,7 +17,7 @@ export function Header({ title, cartQuantityItems = 0 }: HeaderProps) {
                 </Text>
             </View>
             {
-                cartQuantityItems > 0 &&
+                cartQuantityItems >= 0 &&
                 <Link href="/cart" asChild>
                     <TouchableOpacity className="relative" activeOpacity={0.7}>
                         <View className="items-center justify-center w-4 h-4 rounded-full bg-lime-300 top-2 z-10 -right-3.5">
