@@ -43,3 +43,8 @@ E também o path:
     ]
 }
 ```
+
+### Importação do clsx
+```
+npx i clsx
+```
