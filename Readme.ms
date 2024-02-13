@@ -1,3 +1,13 @@
+Esse é um app da NLW Expert da Rocket Seat, pode usar à vontade, o mesmo foi usado para estudo e tem poucas alterações.
+This is an app from Rocket Seat's NLW Expert, feel free to use it. It was used for studying purposes and has few modifications.
+
+O aplicativo mostra os lanches separados por categoria, tem página interna, possibilidade de adicionar ao carrinho, remover e enviar mensagem para o whatsapp.
+The app displays snacks categorized, has internal pages, allows adding to the cart, removing items, and sending messages via WhatsApp.
+
+O projeto foi comitado separadamente para melhor visualização de evolução do mesmo.
+The project was committed separately for a better visualization of its evolution.
+
+Lista de comandos usados/Command list:
 # Comandos usados
 ### Instalação do app com expo
 ```
