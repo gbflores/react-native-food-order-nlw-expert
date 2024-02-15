@@ -7,6 +7,7 @@ The app displays snacks categorized, has internal pages, allows adding to the ca
 O projeto foi comitado separadamente para melhor visualização de evolução do mesmo.
 The project was committed separately for a better visualization of its evolution.
 
+
 Lista de comandos usados/Command list:
 # Comandos usados
 ### Instalação do app com expo
