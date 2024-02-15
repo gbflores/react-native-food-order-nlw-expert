@@ -10,32 +10,32 @@ The project was committed separately for a better visualization of its evolution
 Lista de comandos usados/Command list:
 # Comandos usados
 ### Instalação do app com expo
-```
+```bash
 npx create-expo-app
 ```
 ### Usabilidade do expo
-```
+```bash
 npx expo start
 npx expo start --clear
 ```
 ### Instalação do Tailwind e configuração
-```
+```bash
 npm i nativewind@2.0.11
 npm i tailwindcss@3.3.2 --save-dev
 npx tailwindcss init
 ```
 ### Instalação da fonte inter do google.
-```
+```bash
 npx expo install expo-font @expo-google-fonts/inter
 ```
 ### Configuração do tailwind.config:
-```
+```bash
 content: [
     "./src/app/**/*.{ts,tsx}", "./src/components/**/*.{ts,tsx}",
 ]
 ```
 E também o theme:
-```
+```bash
 extend: {
     fontFamily: {
     heading: "Inter_600SemiBold",
@@ -46,7 +46,7 @@ extend: {
 }
 ```
 E também o path:
-```
+```bash
 "paths": {
     "@/*": [
     "./src/*"
@@ -55,18 +55,18 @@ E também o path:
 ```
 
 ### Importação do clsx
-```
+```bash
 npx i clsx
 ```
 ### Instalação do zustand
-```
+```bash
 npx instal zustand
 ```
 ### Instalação do KeyboardAware
-```
+```bash
 npm i react-native-keyboard-aware-scroll-view --save
 ```
 ### Instalação do Async Storage
-```
+```bash
 npx expo install @react-native-async-storage/async-storage
 ```
